@@ -10,7 +10,7 @@ Windows handles line endings differently than *nix based systems (Unix, Linux, m
 
 We want the repo to correctly pull down symlinks for use in the Lando containers.git. To do this, we will enable symlinks as part of the cloning of the repo.
 
-`git clone -c core.symlinks=true git@github.com:eGovPDX/portlandor.git`
+`git clone -c core.symlinks=true https://git@github.com/eGovPDX/portlandor.git`
 
 `git clone` and `git checkout` must be run as an administrator in order to create symbolic links
 
